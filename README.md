@@ -1,6 +1,6 @@
 # DeepLearning Tor Traffic
 
-Detecting and Classifying Tor Traffic using Deep Learning Techniques test
+Detecting and Classifying Tor Traffic using Deep Learning Techniques
 
 ## Dataset
 
