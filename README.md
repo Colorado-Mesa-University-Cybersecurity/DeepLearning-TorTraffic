@@ -10,7 +10,7 @@ Detecting and Classifying Tor Traffic using Deep Learning Techniques
 - Go to the scripts folder after cloning the repository.
 - dont have to change usermode or permission, just type 'bash CIC-Dataset-Download.sh'
 - It will automatically create a folder CICDataSet-TOR in the parent directory and download the data for both of the scenario right there.
-
+- *Note:* Downloading TorPcaps dataset takes substantial amount of time. 
  Script for downloading dataset is available: [here](https://github.com/rambasnet/DeepLearning-TorTraffic/tree/master/scripts)
  
 ### Cleanup
