@@ -7,6 +7,12 @@ Detecting and Classifying Tor Traffic using Deep Learning Techniques
 ### How to Download
  The ISCXTor2016 dataset is available [here](https://www.unb.ca/cic/datasets/tor.html), along with descriptions about the dataset. The redirect to download the data is located at the bottom of the webpage. As of June 2020, both the CSV and PCAP zip files are available for download. For the work shown here, unless otherwise noted, we are using the CSV files. However, many of the files provided from the `TorCSV.zip` file are actually ARFF files. As a consequence of this, these may have to translated to another filetype (such as CSV), if absolutely necessary.  
 
+- Go to the scripts folder after cloning the repository.
+- dont have to change usermode or permission, just type 'bash CIC-Dataset-Download.sh'
+- It will automatically create a folder CICDataSet-TOR in the parent directory and download the data for both of the scenario right there.
+- *Note:* Downloading TorPcaps dataset takes substantial amount of time. 
+ Script for downloading dataset is available: [here](https://github.com/rambasnet/DeepLearning-TorTraffic/tree/master/scripts)
+ 
 ### Cleanup
 -   dropped samples with Infinitiy values
 -   dropped samples witn NaN values
